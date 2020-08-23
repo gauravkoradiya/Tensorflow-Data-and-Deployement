@@ -1,0 +1,21 @@
+<html>
+<head>
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@latest"> </script>
+
+    <script>
+        async function run() {
+            const Model_Url = "Mention complete path where model.json is situated.";
+            const model = await tf.loadLayersModel(Model_Url);
+            console.log(model.summary());
+            const input = null; //add input accordingly
+            const result = model.prediction(input);
+            alert(result);
+        }
+        run();
+    </script>
+
+</head>
+    <body>
+        This is code for load cutom model in JS.
+    </body>
+</html>
