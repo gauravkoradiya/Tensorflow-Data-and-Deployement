@@ -8,14 +8,14 @@
             "name": "Python: Current File",
             "type": "python",
             "request": "launch",
-            "program": "E:/goldenmace_ML/Stock-Price-Predictor-master/SP_LSTM_Demo.py",
+            "program": "${file}",
             "console": "integratedTerminal"
         },
         {
             "type": "chrome",
             "request": "launch",
             "name": "Launch Chrome against localhost",
-            "url": "http://127.0.0.1:8887/Week%203/Examples/mobilenet.html",
+            "url": "http://127.0.0.1:8887/Week%204/retrain.html",
         }
     ]
 }
